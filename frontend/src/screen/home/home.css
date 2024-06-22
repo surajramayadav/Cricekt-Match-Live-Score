@@ -1,0 +1,11 @@
+.background-container {
+    background-image: url('../../assets/bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    /* Add additional styling as needed */
+}

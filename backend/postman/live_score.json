@@ -1,0 +1,351 @@
+{
+    "item": [
+        {
+            "id": "dd0aa69f-be03-4120-91e4-ce3c50d187be",
+            "name": "user Auth",
+            "description": {
+                "content": "user Authentications",
+                "type": "text/plain"
+            },
+            "item": [
+                {
+                    "id": "41aaebe9-249b-4f5b-93f0-787521c1de7d",
+                    "name": "user Login",
+                    "request": {
+                        "url": {
+                            "path": [
+                                "user",
+                                "auth",
+                                "login"
+                            ],
+                            "host": [
+                                "{{URL}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "response": [],
+                    "event": []
+                },
+                {
+                    "id": "abdfe933-7073-484f-887d-3965161533e5",
+                    "name": "user Register",
+                    "request": {
+                        "url": {
+                            "path": [
+                                "user",
+                                "auth",
+                                "register"
+                            ],
+                            "host": [
+                                "{{URL}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "response": [],
+                    "event": []
+                },
+                {
+                    "id": "4cd07b44-3907-49e0-a2dc-7949c6a0130e",
+                    "name": "user Forget Password",
+                    "request": {
+                        "url": {
+                            "path": [
+                                "user",
+                                "auth",
+                                "forget-password"
+                            ],
+                            "host": [
+                                "{{URL}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "response": [],
+                    "event": []
+                },
+                {
+                    "id": "6bf74b50-eb1f-4704-9b3d-96d484c662fe",
+                    "name": "user Reset Password",
+                    "request": {
+                        "url": {
+                            "path": [
+                                "user",
+                                "auth",
+                                "reset-password"
+                            ],
+                            "host": [
+                                "{{URL}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "response": [],
+                    "event": []
+                },
+                {
+                    "id": "ff26b619-0c41-4d66-82a0-9a7ba3f3b0be",
+                    "name": "user Logout",
+                    "request": {
+                        "url": {
+                            "path": [
+                                "user",
+                                "auth",
+                                "logout"
+                            ],
+                            "host": [
+                                "{{URL}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "GET",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "response": [],
+                    "event": []
+                }
+            ],
+            "event": []
+        },
+        {
+            "id": "d62047c0-2ca6-4912-88db-74e4c7989e4b",
+            "name": "user",
+            "description": {
+                "content": "user Deatils",
+                "type": "text/plain"
+            },
+            "item": [
+                {
+                    "id": "fcd36f39-1906-467a-8253-d2a4e93d7a8c",
+                    "name": "Add user",
+                    "request": {
+                        "url": {
+                            "path": [
+                                "user",
+                                "add"
+                            ],
+                            "host": [
+                                "{{URL}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "response": [],
+                    "event": []
+                },
+                {
+                    "id": "8b181332-6fea-4016-a443-d44ccb66a4e7",
+                    "name": "View All user",
+                    "request": {
+                        "url": {
+                            "path": [
+                                "user",
+                                "view"
+                            ],
+                            "host": [
+                                "{{URL}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "GET",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "response": [],
+                    "event": []
+                },
+                {
+                    "id": "053d99dd-9b9c-4bc1-9f35-340854a38240",
+                    "name": "View user By Id",
+                    "request": {
+                        "url": {
+                            "path": [
+                                "user",
+                                "view",
+                                "642929249292424"
+                            ],
+                            "host": [
+                                "{{URL}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "GET",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "response": [],
+                    "event": []
+                },
+                {
+                    "id": "e1da6a5d-ba4b-416f-97d3-a48570243b12",
+                    "name": "Update user",
+                    "request": {
+                        "url": {
+                            "path": [
+                                "user",
+                                "update",
+                                "642929249292424"
+                            ],
+                            "host": [
+                                "{{URL}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "PUT",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "response": [],
+                    "event": []
+                },
+                {
+                    "id": "110cc7df-262a-407d-90d0-27bee0094c90",
+                    "name": "Delete user",
+                    "request": {
+                        "url": {
+                            "path": [
+                                "user",
+                                "delete",
+                                "642929249292424"
+                            ],
+                            "host": [
+                                "{{URL}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": ""
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            },
+                            {
+                                "key": "cache-control",
+                                "value": "no-cache"
+                            }
+                        ],
+                        "method": "DELETE",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "response": [],
+                    "event": []
+                }
+            ],
+            "event": []
+        }
+    ],
+    "event": [],
+    "variable": [
+        {
+            "type": "any",
+            "value": "http://localhost:4400/api/v1",
+            "key": "URL"
+        }
+    ],
+    "info": {
+        "_postman_id": "456afc76-f644-46c0-94d5-3e0550771f00",
+        "name": "live_score Collection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    }
+}
